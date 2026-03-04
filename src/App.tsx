@@ -42,7 +42,7 @@ const App = () => (
       <Sonner />
       {/* CRITICAL FIX: Add basename to inform the router that the app lives in a sub-directory. */}
       {/* The router will now treat "/Personal-Profile/" as its root route ("/"). */}
-      <BrowserRouter basename="/Personal-Profile">
+      <BrowserRouter basename="/profile">
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

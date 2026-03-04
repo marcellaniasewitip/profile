@@ -26,7 +26,8 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // CRITICAL FIX: The 'base' property must be set to your repository name
   // for GitHub Pages deployment (since the site is served from a subdirectory).
- // base: "/Personal-Profile/", 
+  // IMPORTANT: Use '/profile/' as the repository name you are deploying to.
+  base: "/profile/", // <--- 🌟 FIX APPLIED HERE
 
   server: {
     host: "::",
